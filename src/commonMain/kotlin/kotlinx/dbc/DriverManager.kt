@@ -109,7 +109,7 @@ object DriverManager {
             PARAMS_HOST to host,
             PARAMS_USER to user,
             PARAMS_PASSWORD to password,
-            PARAMS_DATABASE to PARAMS_DATABASE,
+            PARAMS_DATABASE to database,
             PARAMS_PORT to port
         )
 
