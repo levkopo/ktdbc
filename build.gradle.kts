@@ -1,5 +1,6 @@
 plugins {
     kotlin("multiplatform") version "1.7.10"
+    id("convention.publication")
 }
 
 group = "ktdbc"
@@ -20,12 +21,9 @@ kotlin {
         }
     }
     js(BOTH) {
-        browser {
-            commonWebpackConfig {
-                cssSupport.enabled = true
-            }
-        }
+        nodejs()
     }
+
     val hostOs = System.getProperty("os.name")
     val isMingwX64 = hostOs.startsWith("Windows")
     val nativeTarget = when {
@@ -50,4 +48,15 @@ kotlin {
         val nativeMain by getting
         val nativeTest by getting
     }
+
+//    publishing {
+//        publications {
+//            matching { it.name in publicationsFromMainHost }.all {
+//                val targetPublication = this@all
+//                tasks.withType<AbstractPublishToMaven>()
+//                    .matching { it.publication == targetPublication }
+//                    .configureEach { onlyIf { findProperty("isMainHost") == "true" } }
+//            }
+//        }
+//    }
 }
