@@ -57,7 +57,7 @@ publishing {
         pom {
             name.set("Kotlin Database Connectivity Core")
             description.set("Kotlin Multiplatform library with Database interfaces")
-            url.set("https://github.com/KaterinaPetrova/mpp-sample-lib")
+            url.set("https://github.com/levkopo/ktdbc")
 
             licenses {
                 license {
