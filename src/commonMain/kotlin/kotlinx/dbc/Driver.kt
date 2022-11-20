@@ -1,6 +1,6 @@
 package kotlinx.dbc
 
-/***
+/**
  * Interface of Kotlin DBC driver
  *
  * Each driver should supply a class that implements the Driver interface.
@@ -25,5 +25,5 @@ interface Driver {
      * Create connection with database
      * @param params List of arbitrary string tag/value pairs as connection arguments; normally at least a "user" and "password" property should be included
      */
-    fun connect(params: HashMap<String, Any>): Connection
+    fun connect(params: Map<String, Any?>): Connection
 }

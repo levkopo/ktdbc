@@ -1,0 +1,46 @@
+$dokka.format:html-v1
+$dokka.linkExtension:html
+$dokka.location:kotlinx.dbc.exceptions////PointingToDeclaration/-kotlin -database -connectivity/kotlinx.dbc.exceptions/index.html
+$dokka.location:kotlinx.dbc.exceptions/SQLException///PointingToDeclaration/-kotlin -database -connectivity/kotlinx.dbc.exceptions/-s-q-l-exception/index.html
+$dokka.location:kotlinx.dbc.exceptions/SQLException/SQLException/#/PointingToDeclaration/-kotlin -database -connectivity/kotlinx.dbc.exceptions/-s-q-l-exception/-s-q-l-exception.html
+$dokka.location:kotlinx.dbc.exceptions/SQLException/SQLException/#kotlin.String?#kotlin.Throwable?/PointingToDeclaration/-kotlin -database -connectivity/kotlinx.dbc.exceptions/-s-q-l-exception/-s-q-l-exception.html
+$dokka.location:kotlinx.dbc.exceptions/SQLException/SQLException/#kotlin.String?/PointingToDeclaration/-kotlin -database -connectivity/kotlinx.dbc.exceptions/-s-q-l-exception/-s-q-l-exception.html
+$dokka.location:kotlinx.dbc.exceptions/SQLException/SQLException/#kotlin.Throwable?/PointingToDeclaration/-kotlin -database -connectivity/kotlinx.dbc.exceptions/-s-q-l-exception/-s-q-l-exception.html
+$dokka.location:kotlinx.dbc////PointingToDeclaration/-kotlin -database -connectivity/kotlinx.dbc/index.html
+$dokka.location:kotlinx.dbc/Closeable.Companion///PointingToDeclaration/-kotlin -database -connectivity/kotlinx.dbc/-closeable/-companion/index.html
+$dokka.location:kotlinx.dbc/Closeable.Companion/use/TypeParam(bounds=[kotlinx.dbc.Closeable?])#kotlin.Function1[TypeParam(bounds=[kotlinx.dbc.Closeable?]),TypeParam(bounds=[kotlin.Any?])]/PointingToDeclaration/-kotlin -database -connectivity/kotlinx.dbc/-closeable/-companion/use.html
+$dokka.location:kotlinx.dbc/Closeable///PointingToDeclaration/-kotlin -database -connectivity/kotlinx.dbc/-closeable/index.html
+$dokka.location:kotlinx.dbc/Closeable/close/#/PointingToDeclaration/-kotlin -database -connectivity/kotlinx.dbc/-closeable/close.html
+$dokka.location:kotlinx.dbc/Connection///PointingToDeclaration/-kotlin -database -connectivity/kotlinx.dbc/-connection/index.html
+$dokka.location:kotlinx.dbc/Connection/createStatement/#kotlin.String/PointingToDeclaration/-kotlin -database -connectivity/kotlinx.dbc/-connection/create-statement.html
+$dokka.location:kotlinx.dbc/Driver///PointingToDeclaration/-kotlin -database -connectivity/kotlinx.dbc/-driver/index.html
+$dokka.location:kotlinx.dbc/Driver/connect/#kotlin.collections.Map[kotlin.String,kotlin.Any?]/PointingToDeclaration/-kotlin -database -connectivity/kotlinx.dbc/-driver/connect.html
+$dokka.location:kotlinx.dbc/Driver/name/#/PointingToDeclaration/-kotlin -database -connectivity/kotlinx.dbc/-driver/name.html
+$dokka.location:kotlinx.dbc/Driver/version/#/PointingToDeclaration/-kotlin -database -connectivity/kotlinx.dbc/-driver/version.html
+$dokka.location:kotlinx.dbc/DriverManager///PointingToDeclaration/-kotlin -database -connectivity/kotlinx.dbc/-driver-manager/index.html
+$dokka.location:kotlinx.dbc/DriverManager/PARAMS_DATABASE/#/PointingToDeclaration/-kotlin -database -connectivity/kotlinx.dbc/-driver-manager/-p-a-r-a-m-s_-d-a-t-a-b-a-s-e.html
+$dokka.location:kotlinx.dbc/DriverManager/PARAMS_HOST/#/PointingToDeclaration/-kotlin -database -connectivity/kotlinx.dbc/-driver-manager/-p-a-r-a-m-s_-h-o-s-t.html
+$dokka.location:kotlinx.dbc/DriverManager/PARAMS_PASSWORD/#/PointingToDeclaration/-kotlin -database -connectivity/kotlinx.dbc/-driver-manager/-p-a-r-a-m-s_-p-a-s-s-w-o-r-d.html
+$dokka.location:kotlinx.dbc/DriverManager/PARAMS_PORT/#/PointingToDeclaration/-kotlin -database -connectivity/kotlinx.dbc/-driver-manager/-p-a-r-a-m-s_-p-o-r-t.html
+$dokka.location:kotlinx.dbc/DriverManager/PARAMS_USER/#/PointingToDeclaration/-kotlin -database -connectivity/kotlinx.dbc/-driver-manager/-p-a-r-a-m-s_-u-s-e-r.html
+$dokka.location:kotlinx.dbc/DriverManager/connect/#kotlin.String#kotlin.String#kotlin.String?#kotlin.String?#kotlin.String?#kotlin.Int#kotlin.collections.Map[kotlin.String,kotlin.Any?]/PointingToDeclaration/-kotlin -database -connectivity/kotlinx.dbc/-driver-manager/connect.html
+$dokka.location:kotlinx.dbc/DriverManager/connect/#kotlin.String#kotlin.collections.Map[kotlin.String,kotlin.Any?]/PointingToDeclaration/-kotlin -database -connectivity/kotlinx.dbc/-driver-manager/connect.html
+$dokka.location:kotlinx.dbc/DriverManager/findDriverByName/#kotlin.String/PointingToDeclaration/-kotlin -database -connectivity/kotlinx.dbc/-driver-manager/find-driver-by-name.html
+$dokka.location:kotlinx.dbc/DriverManager/register/#kotlinx.dbc.Driver/PointingToDeclaration/-kotlin -database -connectivity/kotlinx.dbc/-driver-manager/register.html
+$dokka.location:kotlinx.dbc/ResultSet///PointingToDeclaration/-kotlin -database -connectivity/kotlinx.dbc/-result-set/index.html
+$dokka.location:kotlinx.dbc/ResultSet/findColumn/#kotlin.String/PointingToDeclaration/-kotlin -database -connectivity/kotlinx.dbc/-result-set/find-column.html
+$dokka.location:kotlinx.dbc/ResultSet/getInt/#kotlin.Int/PointingToDeclaration/-kotlin -database -connectivity/kotlinx.dbc/-result-set/get-int.html
+$dokka.location:kotlinx.dbc/ResultSet/getInt/#kotlin.String/PointingToDeclaration/-kotlin -database -connectivity/kotlinx.dbc/-result-set/get-int.html
+$dokka.location:kotlinx.dbc/ResultSet/getLong/#kotlin.Int/PointingToDeclaration/-kotlin -database -connectivity/kotlinx.dbc/-result-set/get-long.html
+$dokka.location:kotlinx.dbc/ResultSet/getLong/#kotlin.String/PointingToDeclaration/-kotlin -database -connectivity/kotlinx.dbc/-result-set/get-long.html
+$dokka.location:kotlinx.dbc/ResultSet/getObject/#kotlin.Int/PointingToDeclaration/-kotlin -database -connectivity/kotlinx.dbc/-result-set/get-object.html
+$dokka.location:kotlinx.dbc/ResultSet/getObject/#kotlin.String/PointingToDeclaration/-kotlin -database -connectivity/kotlinx.dbc/-result-set/get-object.html
+$dokka.location:kotlinx.dbc/ResultSet/getString/#kotlin.Int/PointingToDeclaration/-kotlin -database -connectivity/kotlinx.dbc/-result-set/get-string.html
+$dokka.location:kotlinx.dbc/ResultSet/getString/#kotlin.String/PointingToDeclaration/-kotlin -database -connectivity/kotlinx.dbc/-result-set/get-string.html
+$dokka.location:kotlinx.dbc/ResultSet/next/#/PointingToDeclaration/-kotlin -database -connectivity/kotlinx.dbc/-result-set/next.html
+$dokka.location:kotlinx.dbc/Statement///PointingToDeclaration/-kotlin -database -connectivity/kotlinx.dbc/-statement/index.html
+$dokka.location:kotlinx.dbc/Statement/execute/#/PointingToDeclaration/-kotlin -database -connectivity/kotlinx.dbc/-statement/execute.html
+$dokka.location:kotlinx.dbc/Statement/executeUpdate/#/PointingToDeclaration/-kotlin -database -connectivity/kotlinx.dbc/-statement/execute-update.html
+kotlinx.dbc
+kotlinx.dbc.exceptions
+

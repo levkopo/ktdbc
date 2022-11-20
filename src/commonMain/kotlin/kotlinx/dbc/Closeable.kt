@@ -5,6 +5,9 @@ import kotlin.contracts.InvocationKind
 import kotlin.contracts.contract
 
 interface Closeable {
+    /***
+     * Closes current class
+     */
     fun close()
 
     companion object {

@@ -1,10 +1,15 @@
 plugins {
     kotlin("multiplatform") version "1.7.10"
     id("convention.publication")
+    id("org.jetbrains.dokka") version "1.7.20"
 }
 
 group = "com.github.levkoposc"
-version = "1.0.0-alpha1"
+version = "1.0.0-alpha2"
+
+tasks.dokkaHtml.configure {
+    moduleName.set("Kotlin Database Connectivity")
+}
 
 repositories {
     mavenCentral()
@@ -15,6 +20,7 @@ kotlin {
         compilations.all {
             kotlinOptions.jvmTarget = "1.8"
         }
+
         withJava()
         testRuns["test"].executionTask.configure {
             useJUnitPlatform()

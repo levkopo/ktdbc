@@ -1,5 +1,8 @@
 package kotlinx.dbc.exceptions
 
+/**
+ * Exception of SQL
+ */
 class SQLException : Exception {
     constructor(): super()
     constructor(message: String?): super(message)
