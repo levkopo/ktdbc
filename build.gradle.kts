@@ -3,7 +3,7 @@ plugins {
     id("convention.publication")
 }
 
-group = "ktdbc"
+group = "com.github.levkoposc"
 version = "1.0.0-alpha1"
 
 repositories {
